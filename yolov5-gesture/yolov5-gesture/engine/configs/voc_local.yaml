@@ -1,0 +1,52 @@
+# 修改训练和测试数据的路径
+# 数据路径
+path: ""  # dataset root dir
+train:
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/call/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/dislike/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/fist/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/four/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/like/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/mute/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/ok/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/one/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/palm/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/peace/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/peace_inverted/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/rock/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/stop/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/stop_inverted/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/three/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/three2/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/two_up/train.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/two_up_inverted/train.txt"
+
+val:
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/call/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/dislike/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/fist/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/four/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/like/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/mute/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/ok/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/one/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/palm/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/peace/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/peace_inverted/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/rock/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/stop/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/stop_inverted/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/three/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/three2/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/two_up/val.txt"
+  - "/home/dm/nasdata/dataset/csdn/gesture/Light-HaGRID/trainval/two_up_inverted/val.txt"
+
+test:  # test images (optional)
+data_type: voc
+
+# Classes
+nc: 19  # number of classes
+names: { 'one': 0, 'two_up': 1, 'two_up_inverted': 2, 'three': 3, 'three2': 4,
+         'four': 5, 'fist': 6, 'palm': 7, 'ok': 8, 'peace': 9,
+         'peace_inverted': 10, 'like': 11, 'dislike': 12, 'stop': 13, 'stop_inverted': 14,
+         'call': 15, 'mute': 16, 'rock': 17, 'no_gesture': 18 }
